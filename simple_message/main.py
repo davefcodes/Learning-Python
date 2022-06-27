@@ -1,7 +1,7 @@
 #Simple python message 
-message = "It will all make sense soon"
+message = "We are learning python"
 print(message)
 
-message = "Everything will click as soon as possible"
+message = "Testing out a simple pyhton message"
 print(message)
 
