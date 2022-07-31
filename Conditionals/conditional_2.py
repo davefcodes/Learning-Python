@@ -103,7 +103,7 @@ if 'apple' in favorite_fruits:
 if 'kiwi' in favorite_fruits:
   print("I really like kiwi")
 if 'orange' in favorite_fruits:
-  print("I really like orange")
+  print("I really like oranges")
 if 'banana' in favorite_fruits:
   print("I like banana’s")
 if 'pear' in favorite_fruits:
