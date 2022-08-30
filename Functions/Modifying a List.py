@@ -11,7 +11,7 @@ while unprinted_designs:
     current_designs = unprinted_designs.pop() #pop() will remove the last item in the list 
 
     print(f"Printing model: {current_designs}")
-    completed_models.append(current_designs) 
+    completed_models.append(current_designs) #append() will add the items into our completed_models
 
 # Display the completed_models
 print("\nThe following models have been completed: ")
