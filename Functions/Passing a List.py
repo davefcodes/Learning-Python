@@ -8,3 +8,5 @@ def greet_users(names):
 
 user_names = ['Kim', 'Dave', 'Sam', 'Chantel']
 greet_users(user_names)
+
+

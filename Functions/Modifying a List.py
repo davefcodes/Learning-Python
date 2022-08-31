@@ -18,3 +18,4 @@ print("\nThe following models have been completed: ")
 
 for model in completed_models: # loop through the completed models and print it 
     print(model)
+
