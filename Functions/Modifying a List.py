@@ -4,6 +4,8 @@
 unprinted_designs = ['phone case', 'robot pendant', 'dodecahedron']
 completed_models = [] 
 
+print(unprinted_designs)
+
 # Simulate each design until none it left 
 # Move each desing into completed_models after printing 
 
@@ -18,4 +20,6 @@ print("\nThe following models have been completed: ")
 
 for model in completed_models: # loop through the completed models and print it 
     print(model)
+
+
 
