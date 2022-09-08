@@ -1,6 +1,9 @@
 # Mixing Positional and Arbitrary Arguments
 
-def make_pizza(size, *toppings):  # the parameter that accepts an arbitrary number of arguments must be placed last in the function definition.
+#Notes:
+# python matches positional and keyword arguments first and then collects any remaining arguments in the final parameter.
+# the parameter that accepts an arbitrary number of arguments must be placed last in the function definition.
+def make_pizza(size, *toppings): 
     """Summarize the pizza we are about to make"""
     print(f"\nMaking a {size}-inch pizza with the following toppings:")
 
