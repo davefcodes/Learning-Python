@@ -34,5 +34,6 @@ user_profile = build_user('david', 'faibil',
 print(user_profile)
 
 user2 = build_user('sam', 'h', 
-                    location = 'new york', 
+                    location = 'queens', 
                     field = 'sports therapist')
+print(user2)
