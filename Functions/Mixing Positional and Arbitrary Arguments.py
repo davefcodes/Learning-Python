@@ -12,3 +12,15 @@ def make_pizza(size, *toppings):
 
 make_pizza('16', 'pepperoni')
 make_pizza('12', 'mushrooms', 'green peppers', 'extra cheese')
+
+
+# Using Arbitrary Keyword Arguments
+
+def build_user(first, last, **user_info):
+    """Build a function containing everything we know about a user"""
+    user_info['first_name'] = first
+    user_info['last_name'] = last
+    return user_info
+
+user_profile = build_user('david', 'faibil', location = 'new york', field = 'engineering')
+print(user_profile)
