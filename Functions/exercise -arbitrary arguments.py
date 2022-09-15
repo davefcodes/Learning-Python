@@ -24,7 +24,7 @@ def build_profile(first, last, **user_info):
 
 my_profile = build_profile('david', 'faibil', 
                             location = 'new york', 
-                            career = 'software engineer'
+                            career = 'software engineer',
                             fav_book = 'atomic habits')
 
 print(my_profile) 
