@@ -28,3 +28,15 @@ my_profile = build_profile('david', 'faibil',
                             fav_book = 'atomic habits')
 
 print(my_profile) 
+
+# 8-14. Cars: Write a function that stores information about a car in a diction-ary. The function should always receive a manufacturer and a model name. It should then accept an arbitrary number of keyword arguments. Call the func- tion with the required information and two other name-value pairs, such as a color or an optional feature
+
+def make_car(manufacturer, model, **package):
+    """Stores Information about a car"""
+    package['manufacturer'] = manufacturer
+    package['model_name'] = model 
+    return package 
+
+car = make_car('audi', 'rs7 sports back', color = 'grey', tow_package = True)
+
+print(car)
