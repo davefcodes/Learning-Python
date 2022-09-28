@@ -13,7 +13,6 @@ print(name.upper())
 print(name.lower())
 
 
-
 #Excerise Pg21 (full_name.py)  
 # using f string to format our strings
 first_name = "ada"
