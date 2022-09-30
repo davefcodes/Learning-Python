@@ -25,9 +25,14 @@ print(restaurant.cuisine_type)
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
 
+# 9-2 Creating three different instances from the class and call describe_restaurant for each instance
 
 
+murray_bagels = Restaurant('murray', "bagel's")
+murray_bagels.describe_restaurant()
 
+pinch_chinese = Restaurant('pinch', 'chinese')
+pinch_chinese.describe_restaurant()
 
-
-
+oxomoco = Restaurant('oxomoco', 'mexican')
+oxomoco.describe_restaurant()
