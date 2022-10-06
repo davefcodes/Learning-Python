@@ -1,3 +1,5 @@
+# 9-1. Restaurant
+
 class Restaurant:
     """A class representing a restaurant."""
     
@@ -36,3 +38,6 @@ pinch_chinese.describe_restaurant()
 
 oxomoco = Restaurant('oxomoco', 'mexican')
 oxomoco.describe_restaurant()
+
+
+
