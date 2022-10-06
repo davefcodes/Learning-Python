@@ -43,7 +43,7 @@ last_name = "lovelace"
 full_name = "{}{}".format(first_name, last_name)
 
 
-#Avoiding syntax erros with strings
+#Avoiding syntax erros with strings. 
 #(apostrophe.py) Page24 
 message = "One of Python's strengths is its diverse coummunity"
 print(message)
