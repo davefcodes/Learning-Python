@@ -65,5 +65,6 @@ class Car:
 my_new_car = Car('audi', 's8', '2022')
 print(my_new_car.get_descriptive_name())
 
-my_new_car.update_odometer(25)
+my_new_car.update_odometer(25) # modified an attribute value through a method
 my_new_car.read_odometer()
+
