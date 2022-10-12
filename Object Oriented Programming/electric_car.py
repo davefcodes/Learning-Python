@@ -37,6 +37,19 @@ class Car:
         print("The gas tank of this car is full.")
     
 
+# Instance as Attributes 
+
+class Battery:
+    """A simple attempt to model a battery for an electric car."""
+
+    def __init__(self, battery_size=75):
+        """Initialize the battery's attributes."""
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        """Print a statement describing the battery size."""
+        print(f"This car has a {self.battery_size}-kWh battery.")
+
 
 class ElectricCar(Car):
     """Represent aspects of a car, specific to electric vehicles."""
@@ -52,7 +65,7 @@ class ElectricCar(Car):
     
     def fill_gas_tank(self):
         """Electric cars don't have gas tank."""
-        print("This car doesn't need a gas tank.")
+        print("This car doesn't need a gas tank")
 
 my_tesla = ElectricCar('tesla', 'model S', 2022)
 print(my_tesla.get_descriptive_name())
