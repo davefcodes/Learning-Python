@@ -58,5 +58,3 @@ my_shop = IceCreamStand('DaveS IceCream', 'IceCreamStand', flavors)
 
 my_shop.describe_restaurant()
 my_shop.describe_flavors()
-
-
