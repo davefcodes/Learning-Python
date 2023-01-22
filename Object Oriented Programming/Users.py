@@ -10,7 +10,7 @@ class Users:
         self.username = username
         self.email = email
         self.location = location.title()
-
+    
     def describe_user(self):
         """Summary of User information"""
         print('First Name:',self.first_name)
@@ -23,6 +23,8 @@ class Users:
         """Personalized greeting to user"""
         msg = f"Hello {self.first_name} {self.last_name}, Welcome!\n"
         print(f"\n{msg}")
+
+
 
 user_1 = Users('david', 'faibil', 'davefcodes', 'dave@example.com', 'new york')
 user_1.describe_user()

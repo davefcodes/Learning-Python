@@ -1,5 +1,3 @@
-# 9-4. Number Served
-
 class Restaurant:
     """A class representing a restaurant."""
     
@@ -32,18 +30,33 @@ class Restaurant:
 # american_food.describe_restaurant()
 # american_food.open_restaurant()
 
-mickey = Restaurant('Mickey Burger', 'Burger')
-mickey.set_number_served(40)
-mickey.increment_number_served(10)
+# mickey = Restaurant('Mickey Burger', 'Burger')
+# mickey.set_number_served(40)
+# mickey.increment_number_served(10)
 
 
+class IceCreamStand(Restaurant):
+    """A class representing an IceCreamStand."""
+    def __init__(self, name, cuisine_type, flavors):
+        """
+        Initialize attributes of the parent type.
+        Then initialize attributes specific for an Ice Cream Stand
+        """
+        super().__init__(name, cuisine_type)
+        self.flavors = flavors
+
+    def describe_flavors(self):
+        """Show the available flavors in stock"""
+        print(f"\nThese are the flavors available: ")
+
+        for flavor in self.flavors:
+            print(f"\t{flavor}")
+
+flavors = ['Vanilla', 'Chocolate Ice Cream', 'Strawberry Ice Cream', 'Chocolate Chip']
+
+my_shop = IceCreamStand('DaveS IceCream', 'IceCreamStand', flavors)
+
+my_shop.describe_restaurant()
+my_shop.describe_flavors()
 
 
-
-
-
-# # 9-2 Creating three different instances from the class and call describe_restaurant for each instance
-
-
-# murray_bagels = Restaurant('murray', "bagel's")
-# murray_bagels.describe_restaurant()
